@@ -3,10 +3,10 @@ if exists('g:loaded_textobj_php')
 endif
 
 call textobj#user#plugin('php', {
-\   'shortTag': {
-\       '*pattern*': ['<\?', '\?>'],
-\       'select-a': ["ap<", "ap>"],
-\       'select-i': ["ip<", "ip>"],
+\   'phptag': {
+\       '*pattern*': ['<?\(=\|php\)\?[\r\n\s]*','[\r\n\s]*?>'],
+\       'select-a': 'aP',
+\       'select-i': 'iP',
 \   },
 \})
 
