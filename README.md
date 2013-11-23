@@ -1,20 +1,20 @@
-= About
+# About
 
 Vim text object plugin for PHP view template.
 
-= Install
+# Install
 
-== Bundle
+## Bundle
 
 Bundle "kana/vim-textobj-user"
 Bundle "akiyan/vim-textobj-php"
 
-== NeoBundle
+## NeoBundle
 
 NeoBundle "kana/vim-textobj-user"
 NeoBundle "akiyan/vim-textobj-php"
 
-= Usage
+# Usage
 
 ```php:
 <? if ($example >= 1): ?>
