@@ -26,7 +26,7 @@ NeoBundle "akiyan/vim-textobj-php"
 
 <dl>
 <dt>vaP</dt>
-<dd><? if ($example >= 1): ?></dd>
+<dd>&lt;? if ($example >= 1): ?&gt;</dd>
 <dt>viP</dt>
-<dd>if ($example >= 1):</dd>
+<dd>if ($example &gt;= 1):</dd>
 </dl>
